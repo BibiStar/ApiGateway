@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Área Protegida";
+    var username = ViewBag.Username as string;
+    var role = ViewBag.Role as string;
+}
+
+<h2>Área Protegida</h2>
+
+@if (!string.IsNullOrEmpty(username) && !string.IsNullOrEmpty(role))
+{
+    <p>Bem-vindo, <strong>@username</strong>!</p>
+    <p>Sua role: <strong>@role</strong></p>
+
+    @if (role == "admin")
+    {
+        <div class="alert alert-info">
+            Você é um administrador e pode ver esta seção especial!
+        </div>
+    }
+    else if (role == "user")
+    {
+        <div class="alert alert-secondary">
+            Você é um usuário comum. Esta é sua área.
+        </div>
+    }
+}
+else
+{
+    <div class="alert alert-danger">
+        Você não está logado. <a href="/Account/Login">Clique aqui para fazer login</a>.
+    </div>
+}
