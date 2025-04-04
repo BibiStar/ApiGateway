@@ -43,7 +43,7 @@ public class HomeController : Controller
 
 
 
-    [Authorize] // exige token
+    /*[Authorize] */// exige token
     public async Task<IActionResult> Protegido()
     {
         var tokenString = _tokenStorage.GetToken(HttpContext);

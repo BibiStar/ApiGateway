@@ -3,16 +3,20 @@ using Microsoft.AspNetCore.Mvc;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Net.Http.Headers;
+using FrontAPIGateway.Services;
+using Microsoft.AspNetCore.Http;
 
 namespace FrontAPIGateway.Controllers
 {
     public class AccountController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
+        private readonly TokenStorageService _tokenStorage;
 
-        public AccountController(IHttpClientFactory httpClientFactory)
+        public AccountController(IHttpClientFactory httpClientFactory,  TokenStorageService tokenStorage)
         {
             _httpClientFactory = httpClientFactory;
+            _tokenStorage = tokenStorage;
         }
 
         [HttpGet]
@@ -41,6 +45,7 @@ namespace FrontAPIGateway.Controllers
 
                 HttpContext.Session.SetString("UserName", username ?? "Desconhecido");
                 HttpContext.Session.SetString("UserRole", role ?? "");
+                _tokenStorage.SetToken(HttpContext, token);
 
                 return RedirectToAction("Index", "Home");
             }
@@ -52,6 +57,7 @@ namespace FrontAPIGateway.Controllers
         public IActionResult Logout()
         {
             HttpContext.Session.Clear(); // Limpa tudo
+            
             return RedirectToAction("Login");
         }
     }
