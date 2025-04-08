@@ -34,3 +34,12 @@ C:\Users\Bianca Nunes\PROJETOS\OrderService\obj\Debug\net8.0\refint\OrderService
 C:\Users\Bianca Nunes\PROJETOS\OrderService\obj\Debug\net8.0\OrderService.pdb
 C:\Users\Bianca Nunes\PROJETOS\OrderService\obj\Debug\net8.0\OrderService.genruntimeconfig.cache
 C:\Users\Bianca Nunes\PROJETOS\OrderService\obj\Debug\net8.0\ref\OrderService.dll
+C:\Users\Bianca Nunes\PROJETOS\OrderService\obj\Debug\net8.0\OrderService.sourcelink.json
+C:\Users\Bianca Nunes\PROJETOS\OrderService\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Bianca Nunes\PROJETOS\OrderService\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Bianca Nunes\PROJETOS\OrderService\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Bianca Nunes\PROJETOS\OrderService\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Bianca Nunes\PROJETOS\OrderService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Bianca Nunes\PROJETOS\OrderService\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Bianca Nunes\PROJETOS\OrderService\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Bianca Nunes\PROJETOS\OrderService\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

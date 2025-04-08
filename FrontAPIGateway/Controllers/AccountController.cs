@@ -56,8 +56,10 @@ namespace FrontAPIGateway.Controllers
 
         public IActionResult Logout()
         {
-            HttpContext.Session.Clear(); // Limpa tudo
-            
+           // HttpContext.Session.Clear(); // Limpa tudo
+            _tokenStorage.ClearToken(HttpContext);
+
+
             return RedirectToAction("Login");
         }
     }

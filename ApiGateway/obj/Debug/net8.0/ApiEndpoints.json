@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "ApiGateway.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "ApiGateway.Models.UserLogin",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ApiGateway.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

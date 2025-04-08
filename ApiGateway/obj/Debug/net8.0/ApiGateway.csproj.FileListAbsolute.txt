@@ -36,3 +36,12 @@ C:\Users\Bianca Nunes\PROJETOS\ApiGateway\obj\Debug\net8.0\refint\ApiGateway.dll
 C:\Users\Bianca Nunes\PROJETOS\ApiGateway\obj\Debug\net8.0\ApiGateway.pdb
 C:\Users\Bianca Nunes\PROJETOS\ApiGateway\obj\Debug\net8.0\ApiGateway.genruntimeconfig.cache
 C:\Users\Bianca Nunes\PROJETOS\ApiGateway\obj\Debug\net8.0\ref\ApiGateway.dll
+C:\Users\Bianca Nunes\PROJETOS\ApiGateway\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Bianca Nunes\PROJETOS\ApiGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Bianca Nunes\PROJETOS\ApiGateway\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Bianca Nunes\PROJETOS\ApiGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Bianca Nunes\PROJETOS\ApiGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Bianca Nunes\PROJETOS\ApiGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Bianca Nunes\PROJETOS\ApiGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Bianca Nunes\PROJETOS\ApiGateway\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Bianca Nunes\PROJETOS\ApiGateway\obj\Debug\net8.0\ApiGateway.sourcelink.json

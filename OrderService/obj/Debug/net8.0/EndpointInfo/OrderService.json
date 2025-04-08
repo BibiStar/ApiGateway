@@ -1,8 +1,8 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "OrderService",
-    "version": "1.0"
+    "title": "Order Service",
+    "version": "v1"
   },
   "paths": {
     "/orders": {
@@ -106,6 +106,19 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Insira seu token JWT no campo abaixo (sem 'Bearer ')",
+        "scheme": "Bearer",
+        "bearerFormat": "JWT"
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }

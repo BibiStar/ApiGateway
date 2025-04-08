@@ -18,6 +18,8 @@
         public void ClearToken(HttpContext httpContext)
         {
             httpContext.Session.Remove(TokenKey);
+            httpContext.Session.Remove("UserName");
+            httpContext.Session.Remove("UserRole");
         }
     }
 

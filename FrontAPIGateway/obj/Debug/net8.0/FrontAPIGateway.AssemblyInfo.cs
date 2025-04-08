@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FrontAPIGateway")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c98a303dfbb9511535aede5e50a751489d93a9eb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c91fb9e6844620c9251eb09f034586688104aed5")]
 [assembly: System.Reflection.AssemblyProductAttribute("FrontAPIGateway")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FrontAPIGateway")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
