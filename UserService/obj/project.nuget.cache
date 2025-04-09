@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ArbDcH4U62A=",
+  "dgSpecHash": "swjYiPjJMK4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bianca Nunes\\PROJETOS\\UserService\\UserService.csproj",
+  "projectFilePath": "C:\\Users\\Bianca Nunes\\PROJETOS\\API-GATEWAY\\UserService\\UserService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bianca Nunes\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.0\\microsoft.aspnetcore.authentication.jwtbearer.8.0.0.nupkg.sha512",
     "C:\\Users\\Bianca Nunes\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

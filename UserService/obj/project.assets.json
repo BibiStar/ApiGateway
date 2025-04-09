@@ -761,11 +761,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bianca Nunes\\PROJETOS\\UserService\\UserService.csproj",
+      "projectUniqueName": "C:\\Users\\Bianca Nunes\\PROJETOS\\API-GATEWAY\\UserService\\UserService.csproj",
       "projectName": "UserService",
-      "projectPath": "C:\\Users\\Bianca Nunes\\PROJETOS\\UserService\\UserService.csproj",
+      "projectPath": "C:\\Users\\Bianca Nunes\\PROJETOS\\API-GATEWAY\\UserService\\UserService.csproj",
       "packagesPath": "C:\\Users\\Bianca Nunes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bianca Nunes\\PROJETOS\\UserService\\obj\\",
+      "outputPath": "C:\\Users\\Bianca Nunes\\PROJETOS\\API-GATEWAY\\UserService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

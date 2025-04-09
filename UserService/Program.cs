@@ -112,3 +112,5 @@ app.MapControllers();
 app.MapGet("/users", [Authorize] () => new[] { new { Id = 1, Name = "Alice" }, new { Id = 2, Name = "Bob" } });
 
 app.Run();
+
+public partial class Program { } // usado apenas para testes - Program falsa (wrapper)

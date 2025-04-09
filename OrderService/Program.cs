@@ -113,3 +113,5 @@ app.MapControllers();
 app.MapGet("/orders", [Authorize] () => new[] { new { Id = 101, Product = "Notebook" }, new { Id = 102, Product = "Smartphone" } });
 
 app.Run();
+
+public partial class Program { } // usado apenas para testes - Program falsa (wrapper)

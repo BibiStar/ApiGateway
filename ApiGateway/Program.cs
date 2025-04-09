@@ -115,3 +115,4 @@ app.MapControllers();
 app.MapReverseProxy();
 
 app.Run();
+public partial class Program { } // usado apenas para testes

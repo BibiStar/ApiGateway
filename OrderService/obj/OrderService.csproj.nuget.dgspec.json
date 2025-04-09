@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bianca Nunes\\PROJETOS\\OrderService\\OrderService.csproj": {}
+    "C:\\Users\\Bianca Nunes\\PROJETOS\\API-GATEWAY\\OrderService\\OrderService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bianca Nunes\\PROJETOS\\OrderService\\OrderService.csproj": {
+    "C:\\Users\\Bianca Nunes\\PROJETOS\\API-GATEWAY\\OrderService\\OrderService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bianca Nunes\\PROJETOS\\OrderService\\OrderService.csproj",
+        "projectUniqueName": "C:\\Users\\Bianca Nunes\\PROJETOS\\API-GATEWAY\\OrderService\\OrderService.csproj",
         "projectName": "OrderService",
-        "projectPath": "C:\\Users\\Bianca Nunes\\PROJETOS\\OrderService\\OrderService.csproj",
+        "projectPath": "C:\\Users\\Bianca Nunes\\PROJETOS\\API-GATEWAY\\OrderService\\OrderService.csproj",
         "packagesPath": "C:\\Users\\Bianca Nunes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bianca Nunes\\PROJETOS\\OrderService\\obj\\",
+        "outputPath": "C:\\Users\\Bianca Nunes\\PROJETOS\\API-GATEWAY\\OrderService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
