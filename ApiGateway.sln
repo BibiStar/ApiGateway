@@ -17,6 +17,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdersService.Test", "Tests
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsersService.Test", "Tests\UsersService\UsersService.Test.csproj", "{C24F51A6-C141-78AD-02F8-876AAB6BEFB3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoadTests", "LoadTests", "{3EDB493D-9015-4C92-9BBE-E6CBAC0F2069}"
+	ProjectSection(SolutionItems) = preProject
+		run_k6.bat = run_k6.bat
+		teste.js = teste.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
