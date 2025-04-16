@@ -19,9 +19,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsersService.Test", "Tests\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoadTests", "LoadTests", "{3EDB493D-9015-4C92-9BBE-E6CBAC0F2069}"
 	ProjectSection(SolutionItems) = preProject
-		run_k6.bat = run_k6.bat
-		teste.js = teste.js
+		LoadTests\k6_config_export.js = LoadTests\k6_config_export.js
+		LoadTests\run_k6.bat = LoadTests\run_k6.bat
+		LoadTests\run_k6_n_cenarios.bat = LoadTests\run_k6_n_cenarios.bat
+		LoadTests\teste.js = LoadTests\teste.js
+		LoadTests\teste_n_cenarios.js = LoadTests\teste_n_cenarios.js
+		LoadTests\usuarios.json = LoadTests\usuarios.json
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resultados", "Resultados", "{6A9B40D9-0A87-4174-8E75-44D13B1D2B69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +67,7 @@ Global
 		{9586A85C-485B-0230-C231-A4182A58BB1D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{CD43DEC1-FB76-9644-BA31-D91E2498C595} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{C24F51A6-C141-78AD-02F8-876AAB6BEFB3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{6A9B40D9-0A87-4174-8E75-44D13B1D2B69} = {3EDB493D-9015-4C92-9BBE-E6CBAC0F2069}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CBECB902-FC8E-4160-A984-B6BF771CE54B}
