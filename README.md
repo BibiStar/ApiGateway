@@ -2,11 +2,13 @@ AQUI, FOI UTILIZADO TESTE UNITÁRIO, NÃO TDD
 
 -- ORDER SERVICE --
 Um microserviço de pedidos
+
 Antes de rodar as operações RESTFUL no swagger, deve-se pegar autorização no API Gateway
 https://localhost:7016/swagger/index.html
 
 -- CLIENT SERVICE -- 
 Um microserviço de cliente
+
 Antes de rodar as operações RESTFUL no swagger, deve-se pegar autorização no API Gateway
 https://localhost:7073/swagger/index.html
 
