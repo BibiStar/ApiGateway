@@ -19,6 +19,7 @@ Como podemos ver, cada microserviço está numa porta diferente, o que poderia s
 A autenticação e autorização são feitas com JWT. Evite colocar dados sensíveis no JWT (tipo CPF, senha, etc.) — mesmo que ele seja assinado, ele é codificado, não criptografado.
 
 -- Teste Unitário --
+
 -- Teste de Carga --
 Usa o K6 do grafana para realizar o teste. Os testes são executados através de um arquivo .bat, que chama um script chamado teste.js e teste_n_cenários.js , chamando o json usuario.json para popular o teste.
 
