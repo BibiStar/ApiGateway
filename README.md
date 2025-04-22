@@ -25,5 +25,5 @@ A autenticação e autorização são feitas com JWT. Evite colocar dados sensí
 -- Teste de Carga --
 Usa o K6 do grafana para realizar o teste. Os testes são executados através de um arquivo .bat, que chama um script chamado teste.js e teste_n_cenários.js , chamando o json usuario.json para popular o teste.
 
-
-
+Endereço do tutorial:
+https://chatgpt.com/c/67ed3de7-425c-800a-83b5-45fb0f5fb002
