@@ -24,6 +24,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoadTests", "LoadTests", "{
 		LoadTests\run_k6_n_cenarios.bat = LoadTests\run_k6_n_cenarios.bat
 		LoadTests\teste.js = LoadTests\teste.js
 		LoadTests\teste_n_cenarios.js = LoadTests\teste_n_cenarios.js
+		LoadTests\teste_stress.bat = LoadTests\teste_stress.bat
+		LoadTests\teste_stress.js = LoadTests\teste_stress.js
 		LoadTests\usuarios.json = LoadTests\usuarios.json
 	EndProjectSection
 EndProject

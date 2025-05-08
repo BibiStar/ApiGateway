@@ -12,7 +12,13 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-var jwtKey = Encoding.ASCII.GetBytes(builder.Configuration["Jwt:SecretKey"]);
+var jwtKeyConfig = builder.Configuration["Jwt:SecretKey"];
+if (string.IsNullOrEmpty(jwtKeyConfig))
+{
+    throw new InvalidOperationException("Jwt:SecretKey não está configurado no appsettings.");
+}
+var jwtKey = Encoding.UTF8.GetBytes(jwtKeyConfig);
+//var jwtKey = Encoding.ASCII.GetBytes(builder.Configuration["Jwt:SecretKey"]);
 var issuer = builder.Configuration["Jwt:Issuer"];
 var audience = builder.Configuration["Jwt:Audience"];
 var validadeAudience = true;

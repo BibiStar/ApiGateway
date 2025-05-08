@@ -7,11 +7,20 @@ using System.Text;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+var jwtKeyConfig = builder.Configuration["Jwt:SecretKey"];
+byte[] key;
 
-var jwtKey = Encoding.ASCII.GetBytes(builder.Configuration["Jwt:SecretKey"]); 
- 
+//byte[] jwtKey = Encoding.ASCII.GetBytes(builder.Configuration["Jwt:SecretKey"]);
+if (string.IsNullOrEmpty(jwtKeyConfig))
+{
+    throw new InvalidOperationException("Jwt:SecretKey não está configurado no appsettings.");
+}
+else
+    key = Encoding.ASCII.GetBytes(jwtKeyConfig);
 
-var key = Encoding.ASCII.GetBytes(builder.Configuration["Jwt:SecretKey"]);
+
+
+//var key = Encoding.ASCII.GetBytes(builder.Configuration["Jwt:SecretKey"]);
 
 builder.Services.AddAuthentication(options =>
 {

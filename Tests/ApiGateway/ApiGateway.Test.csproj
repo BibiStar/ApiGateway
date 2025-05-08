@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -10,6 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="8.2.0" />
     <Using Include="Xunit" />
     <PackageReference Include="coverlet.collector" Version="6.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="8.0.15" />
@@ -18,12 +19,11 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
     <PackageReference Include="Moq" Version="4.20.63" />
     <ProjectReference Include="..\..\ApiGateway\ApiGateway.csproj" />
+    <ProjectReference Include="..\..\OrderService\OrderService.csproj" />
   </ItemGroup>
 
   <Target Name="CopyDepsFile" AfterTargets="Build">
-    <Copy SourceFiles="..\..\ApiGateway\bin\Debug\net8.0\ApiGateway.deps.json"
-          DestinationFiles="$(OutDir)testhost.deps.json"
-          SkipUnchangedFiles="true" />
+    <Copy SourceFiles="..\..\ApiGateway\bin\Debug\net8.0\ApiGateway.deps.json" DestinationFiles="$(OutDir)testhost.deps.json" SkipUnchangedFiles="true" />
   </Target>
 
 
