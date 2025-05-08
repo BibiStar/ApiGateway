@@ -4,9 +4,7 @@
     public class OrderDto
     {
         public int Id { get; set; }
-        public required string Produto { get; set; }
-        public int Quantidade { get; set; }
-        public double Total { get; set; }
+        public decimal Total { get; set; }
     }
 
 }
